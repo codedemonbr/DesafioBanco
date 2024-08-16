@@ -7,4 +7,8 @@ public class ContaCorrente extends Conta {
     public ContaCorrente() {
         this.saqueIlimitado = true;
     }
+
+    public boolean isSaqueIlimitado() {
+        return saqueIlimitado;
+    }
 }
